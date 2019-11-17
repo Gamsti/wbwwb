@@ -51,6 +51,7 @@ Game.init = function(HACK){
 			Game.sceneManager.gotoScene("Preloader");
 			setInterval(Game.update,1000/60);
 			Game.animate();
+			Game.animate = true;
 		}, function(){}, true);
 	}
 
@@ -64,6 +65,7 @@ Game.update = function(){
 	if(Game.paused) return;
 	Tween.tick();
 	Game.sceneManager.update();
+	Game.sceneManager.update = true;
 };
 
 Game.animate = function(){
