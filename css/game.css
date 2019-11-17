@@ -34,6 +34,7 @@ body{
 	width:500px; height:170px;
 
 	position:absolute;
+	position:center;
 	margin:auto;
 	top:0; left:0; right:0; bottom:0;
 
@@ -50,6 +51,7 @@ body{
 	background: rgba(0,0,0,0.8);
 	width:960px; height:540px;
 	position:absolute;
+	position:center;
 	margin:auto;
 	top:0; left:0; right:0; bottom:0;
 	cursor: pointer;
